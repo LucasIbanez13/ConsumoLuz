@@ -27,7 +27,9 @@ const ConsumoForm = () => {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-5 bg-white rounded shadow">
-      <h2 className="text-xl font-bold mb-4">Calculadora de Consumo de Energía</h2>
+      <div className="text-center mb-8">
+        <h1 className="text-2xl font-bold">Calculadora de consumo de Energía</h1>
+      </div>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-700">Consumo Anterior (kWh):</label>
